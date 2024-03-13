@@ -23,4 +23,14 @@ Banco de Dados MongoDBS
 
 
 ```
+
+``` 
+ scripts: {
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:interface": "vitest --ui",
+    "build": "tsup src --loader .log=text --loader .html=text --loader .xml=text"
+  }
+```
 Falta algumas Implementação e atualizações
